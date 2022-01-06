@@ -1,7 +1,8 @@
-
+import Statehook from './hooks/usestate';
 function App() {
   return (
-    <div className="App">dfd 
+    <div className="App">
+      <Statehook/> 
     </div>
   );
 }
