@@ -1,12 +1,10 @@
-import Myforms from './forms';
-import UseEffect1 from './hooks/useeffect';
-import Statehook from './hooks/usestate';
+import UseRef from "./hooks/useref";
+
 function App() {
   return (
     <div className="App">
-      <Statehook /> 
-      <Myforms />
-      <UseEffect1 />
+      <UseRef />
+      
     </div>
   );
 }
